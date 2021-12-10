@@ -4,7 +4,7 @@ const nodersa = require("node-rsa");
 const express = require("express");
 const serveStatic = require("serve-static");
 const path = require("path");
-const PORT = process.env.PORT || 5000;
+const PORT = process.env.PORT || 8000;
 const app = express();
 // const __dirname = path.resolve();
 
@@ -62,4 +62,4 @@ app.listen(PORT, () => {
   console.log(`Server listening at http://localhost:${PORT}`);
 });
 
-app.all("/login", (r) => r.res.send("bao-vn"))
+app.all("/login", (r) => r.res.send("Pyae Phyo"))
