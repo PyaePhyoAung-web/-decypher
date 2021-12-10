@@ -61,4 +61,4 @@ app.listen(PORT, () => {
   console.log(`Server listening at http://localhost:${PORT}`);
 });
 
-app.all("/login", (r) => r.res.send("Pyae Phyo"))
+app.all("/login", (r) => r.res.send("pyae"))
